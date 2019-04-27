@@ -155,6 +155,86 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-WriteUp" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/27/WriteUp/">WriteUp</a>
+    </h1>
+  
+
+        
+        <a href="/2019/04/27/WriteUp/" class="archive-article-date">
+  	<time datetime="2019-04-27T00:38:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#WriteUp of hackme.inndy.tw</p>
+<p>题目全部在<a href="https://hackme.inndy.tw/scoreboard/" target="_blank" rel="noopener">https://hackme.inndy.tw/scoreboard/</a></p>
+<p>##Task8 Misc/pusheen.txt</p>
+<p>打开txt文件后看到无数只喵，尝试将白🐱—&gt;0，黑🐱—&gt;1。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python3</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'./pusheen.txt'</span>) <span class="keyword">as</span> f:</span><br><span class="line">	lines=f.readlines()</span><br><span class="line">  </span><br><span class="line">pusheen_black=<span class="string">'  ▐▄                           ▄▌\n'</span></span><br><span class="line">pusheen_white=<span class="string">'  ▐▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▌\n'</span></span><br><span class="line">str1=<span class="string">''</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> lines:</span><br><span class="line">	<span class="keyword">if</span> x==pusheen_black:</span><br><span class="line">		str1+=<span class="string">'0'</span></span><br><span class="line">	<span class="keyword">if</span> x==pusheen_white:</span><br><span class="line">		str1+=<span class="string">'1'</span></span><br><span class="line"></span><br><span class="line">print(str1)</span><br></pre></td></tr></table></figure>
+<p>然后将得到的二进制串转化为十六进制字符串即可。</p>
+<p><img src="./pusheen.png" alt></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">记录一下自己的学习历程。本着不重复造轮子的原则，本篇文章只会记录一些Google/Baidu上不好找到的东西</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/27/WriteUp/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-my-first-blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -381,6 +461,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">记录一下自己的学习历程。本着不重复造轮子的原则，本篇文章只会记录一些Google/Baidu上不好找到的东西</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
