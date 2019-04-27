@@ -16,12 +16,12 @@
 <meta property="og:site_name" content="Kcat&#39;s Room">
 <meta property="og:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ Task8 Misc/pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.read">
 <meta property="og:locale" content="中文">
-<meta property="og:image" content="http://yoursite.com/2019/04/27/WriteUp/pusheen.png">
-<meta property="og:updated_time" content="2019-04-27T01:01:58.595Z">
+<meta property="og:image" content="https://yyanyi213.github.io/img/pusheen.png">
+<meta property="og:updated_time" content="2019-04-27T01:26:57.399Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WriteUp">
 <meta name="twitter:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ Task8 Misc/pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.read">
-<meta name="twitter:image" content="http://yoursite.com/2019/04/27/WriteUp/pusheen.png">
+<meta name="twitter:image" content="https://yyanyi213.github.io/img/pusheen.png">
   
     <link rel="alternative" href="/atom.xml" title="Kcat&#39;s Room" type="application/atom+xml">
   
@@ -181,7 +181,7 @@
 <h2 id="Task8-Misc-pusheen-txt"><a href="#Task8-Misc-pusheen-txt" class="headerlink" title="Task8 Misc/pusheen.txt"></a>Task8 Misc/pusheen.txt</h2><p>打开txt文件后看到无数只喵，尝试将白🐱—&gt;0，黑🐱—&gt;1。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python3</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'./pusheen.txt'</span>) <span class="keyword">as</span> f:</span><br><span class="line">	lines=f.readlines()</span><br><span class="line">  </span><br><span class="line">pusheen_black=<span class="string">'  ▐▄                           ▄▌\n'</span></span><br><span class="line">pusheen_white=<span class="string">'  ▐▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▌\n'</span></span><br><span class="line">str1=<span class="string">''</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> lines:</span><br><span class="line">	<span class="keyword">if</span> x==pusheen_black:</span><br><span class="line">		str1+=<span class="string">'0'</span></span><br><span class="line">	<span class="keyword">if</span> x==pusheen_white:</span><br><span class="line">		str1+=<span class="string">'1'</span></span><br><span class="line"></span><br><span class="line">print(str1)</span><br></pre></td></tr></table></figure>
 <p>然后将得到的二进制串转化为十六进制字符串即可。</p>
-<p><img src="./pusheen.png" alt></p>
+<p><img src="https://yyanyi213.github.io/img/pusheen.png" alt></p>
 
       
 
