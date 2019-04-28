@@ -8,19 +8,19 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>WriteUp | Kcat&#39;s Room</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ Task8 Misc/pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.re">
+  <meta name="description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.readlines()">
 <meta name="keywords" content="记录一下自己的学习历程。本着不重复造轮子的原则，本篇文章只会记录一些Google&#x2F;Baidu上不好找到的东西">
 <meta property="og:type" content="article">
 <meta property="og:title" content="WriteUp">
 <meta property="og:url" content="http://yoursite.com/2019/04/27/writeup/index.html">
 <meta property="og:site_name" content="Kcat&#39;s Room">
-<meta property="og:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ Task8 Misc/pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.re">
+<meta property="og:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.readlines()">
 <meta property="og:locale" content="中文">
 <meta property="og:image" content="http://yoursite.com/2019/04/27/writeup/pusheen.png">
-<meta property="og:updated_time" content="2019-04-27T09:50:35.094Z">
+<meta property="og:updated_time" content="2019-04-28T07:37:43.709Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WriteUp">
-<meta name="twitter:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ Task8 Misc/pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.re">
+<meta name="twitter:description" content="WriteUp of hackme.inndy.tw题目全部在https://hackme.inndy.tw/scoreboard/ pusheen.txt打开txt文件后看到无数只喵，尝试将白🐱—&amp;gt;0，黑🐱—&amp;gt;1。 1234567891011121314#  python3with open(&apos;./pusheen.txt&apos;) as f:	lines=f.readlines()">
 <meta name="twitter:image" content="http://yoursite.com/2019/04/27/writeup/pusheen.png">
   
     <link rel="alternative" href="/atom.xml" title="Kcat&#39;s Room" type="application/atom+xml">
@@ -53,7 +53,7 @@
 			<img src class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">Kcat</a></h1>
+		  <h1 class="header-author"><a href="/">Kcat 954553271</a></h1>
 		</hgroup>
 		
 
@@ -111,7 +111,7 @@
 				<img src class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">Kcat</h1>
+			  <h1 class="header-author js-header-author">Kcat 954553271</h1>
 			</hgroup>
 			
 			
@@ -177,11 +177,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="WriteUp-of-hackme-inndy-tw"><a href="#WriteUp-of-hackme-inndy-tw" class="headerlink" title="WriteUp of hackme.inndy.tw"></a>WriteUp of hackme.inndy.tw</h2><p>题目全部在<a href="https://hackme.inndy.tw/scoreboard/" target="_blank" rel="noopener">https://hackme.inndy.tw/scoreboard/</a></p>
-<h3 id="Task8-Misc-pusheen-txt"><a href="#Task8-Misc-pusheen-txt" class="headerlink" title="Task8 Misc/pusheen.txt"></a>Task8 Misc/pusheen.txt</h3><p>打开txt文件后看到无数只喵，尝试将白🐱—&gt;0，黑🐱—&gt;1。</p>
+        <h1 id="WriteUp-of-hackme-inndy-tw"><a href="#WriteUp-of-hackme-inndy-tw" class="headerlink" title="WriteUp of hackme.inndy.tw"></a>WriteUp of hackme.inndy.tw</h1><p>题目全部在<a href="https://hackme.inndy.tw/scoreboard/" target="_blank" rel="noopener">https://hackme.inndy.tw/scoreboard/</a></p>
+<h2 id="pusheen-txt"><a href="#pusheen-txt" class="headerlink" title="pusheen.txt"></a>pusheen.txt</h2><p>打开txt文件后看到无数只喵，尝试将白🐱—&gt;0，黑🐱—&gt;1。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#  python3</span></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'./pusheen.txt'</span>) <span class="keyword">as</span> f:</span><br><span class="line">	lines=f.readlines()</span><br><span class="line">  </span><br><span class="line">pusheen_black=<span class="string">'  ▐▄                           ▄▌\n'</span></span><br><span class="line">pusheen_white=<span class="string">'  ▐▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▌\n'</span></span><br><span class="line">str1=<span class="string">''</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> lines:</span><br><span class="line">	<span class="keyword">if</span> x==pusheen_black:</span><br><span class="line">		str1+=<span class="string">'0'</span></span><br><span class="line">	<span class="keyword">if</span> x==pusheen_white:</span><br><span class="line">		str1+=<span class="string">'1'</span></span><br><span class="line"></span><br><span class="line">print(str1)</span><br></pre></td></tr></table></figure>
 <p>然后将得到的二进制串转化为十六进制字符串即可。</p>
 <p><img src="/2019/04/27/writeup/pusheen.png" alt></p>
+<p>## </p>
+<h2 id="shuffle"><a href="#shuffle" class="headerlink" title="shuffle"></a>shuffle</h2><p>此题通过一个随机生成的置换表将plain.txt中的每个字符进行置换，写入到crypted.txt。</p>
+<p>然后将plain.txt中的字符顺序打乱。</p>
+<p>plain.txt中的字符频率未改变，再分析crypted.txt的字符频率，可以找到字符置换的表。从而通过crypted中的内容还原plain。</p>
+<p>字符频率分析</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#python3</span></span><br><span class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> Counter</span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'./crypted.txt'</span>,<span class="string">'r'</span>) <span class="keyword">as</span> f:</span><br><span class="line">	f=f.read()</span><br><span class="line">c=Counter(f)</span><br><span class="line">c=c.most_common() <span class="comment">#返回一个TOP list</span></span><br><span class="line">str1=<span class="string">''</span></span><br><span class="line"><span class="keyword">for</span> key <span class="keyword">in</span> c:</span><br><span class="line">	<span class="comment"># str1+=key[0]</span></span><br><span class="line">	print(key)</span><br><span class="line"><span class="comment"># print(str1)</span></span><br></pre></td></tr></table></figure>
+<p>payload</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#pyton3</span></span><br><span class="line">str_plain=<span class="string">''' etanoisrhldcumfwgpy,bv.[]k"1'0A2LTDzS-B5I38F96x47CWEMG:jNH()PqJQOVR;K!UY$@Z&#123;&#125;/'''</span></span><br><span class="line">str_crypted=<span class="string">'''DZ4zp1M67_[:mNX`?@U&#125;w/WL$StE*%l]Gs|h+(&gt;r5.uHf20e,RQ&lt;~&#123;=xJgv^TiydcoA kj&amp;\9YO#KqB'''</span></span><br><span class="line">T=str.maketrans(str_crypted, str_plain)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'crypted.txt'</span>, <span class="string">'r'</span>) <span class="keyword">as</span> f:</span><br><span class="line">    crypted=f.read()</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">'1.txt'</span>, <span class="string">'w'</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(crypted.translate(T))</span><br></pre></td></tr></table></figure>
 
       
 
@@ -331,7 +339,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 Kcat
+    		&copy; 2019 Kcat 954553271
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
